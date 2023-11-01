@@ -1,0 +1,12 @@
+<CiscoIPPhoneDirectory>
+<Title>Contatos</Title>
+<Prompt>Prompt text.</Prompt>
+<DirectoryEntry>
+<Name>Natacio</Name>
+<Telephone>02</Telephone>
+</DirectoryEntry>
+<DirectoryEntry>
+<Name>Roça</Name>
+<Telephone>05</Telephone>
+</DirectoryEntry>
+</CiscoIPPhoneDirectory>

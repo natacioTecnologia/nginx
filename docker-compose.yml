@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  nginx:
+    image: nginx:alpine
+    restart: always
+    ports:
+     - 8081:80
+    volumes:
+      - .:/var/www/
+      - ./docker/nginx/:/etc/nginx/conf.d
+    networks:
+      - docker-pconsult
+
+networks:
+  docker-pconsult:
+    driver: bridge
